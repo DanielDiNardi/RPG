@@ -2,31 +2,42 @@
 <html>
     <head>
         <title>Game Title</title>
+        <link rel = "stylesheet" href = "../css/mainStyle.css">
     </head>
     <body>
-        <label for = "name">Enter character name:</label>
-        <input type = "text" id = "name">
-        <br>
-        <label for = "race">Choose a race:</label>
-        <select for = "race" id = "race">
-            <option value = "human">Human</option>
-            <option value = "elf">Elf</option>
-            <option value = "dwarf">Dwarf</option>
-        </select>
-        <br>
-        <label for = "type">Choose a class:</label>
-        <select for = "type" id = "type">
-            <option value = "warrior">Warrior</option>
-            <option value = "bMage">Battle Mage</option>
-            <option value = "mage">Mage</option>
-        </select>
-        <br>
-        <label for = "desc">Description:</label>
-        <br>
-        <textarea id = "desc" rows = "5" cols = "50"></textarea>
-        <br>
-        <input type = "submit" onclick = charCreation()>
-
+        <!--Header with logo and login link-->
+        <header>
+            <a href = "" class = "link">Register</a>
+            <a href = "" class = "link">Login</a>
+            <div id = "logoDiv">
+                <image alt = "logo" id = "logo" src = "../images/logo.png"></image>
+            </div>
+        </header>
+        <!--Content div-->
+        <div id = "contentHolder">
+            <label for = "name">Enter character name:</label>
+            <input type = "text" id = "name">
+            <br>
+            <label for = "race">Choose a race:</label>
+            <select for = "race" id = "race">
+                <option value = "human">Human</option>
+                <option value = "elf">Elf</option>
+                <option value = "dwarf">Dwarf</option>
+            </select>
+            <br>
+            <label for = "type">Choose a class:</label>
+            <select for = "type" id = "type">
+                <option value = "warrior">Warrior</option>
+                <option value = "bMage">Battle Mage</option>
+                <option value = "mage">Mage</option>
+            </select>
+            <br>
+            <label for = "desc">Description:</label>
+            <br>
+            <textarea id = "desc" rows = "5" cols = "50"></textarea>
+            <br>
+            <input type = "submit" onclick = charCreation()>
+        </div>
         <script src = "../javascripts/character.js"></script>
     </body>
 </html>
