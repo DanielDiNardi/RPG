@@ -1,0 +1,15 @@
+header {
+    height: 33%;
+    width: 100%;
+}
+#logoDiv {
+    width: 50%;
+}
+#logo {
+    margin-left: 42%;
+    margin-right: 0;
+    display: inline;
+}
+.link {
+    display: inline;
+}
