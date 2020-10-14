@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game Title</title>
+        <link rel = "stylesheet" href = "../css/mainStyle.css">
+    </head>
+    <body>
+        <!--Header with logo and login link-->
+        <header>
+            <a href = "register.html" class = "link">Register</a>
+            <a href = "login.html" class = "link">Login</a>
+            <div id = "logoDiv">
+                <a href = "index.html">
+                    <image alt = "logo" id = "logo" src = "../images/logo.png"></image>
+                </a>
+            </div>
+        </header>
+        <!--Content div-->
+        <div id = "contentHolder">
+            <label for = "name">Enter name:</label>
+            <input type = "text" id = "name">
+            <br>
+            <label for = "email">Enter email:</label>
+            <input type = "email" id = "email">
+            <br>
+            <label for = "password">Enter password:</label>
+            <input type = "password" id = "password">
+            <br>
+            <label for = "passwordConf">Confirm password:</label>
+            <input type = "password" id = "passwordConf">
+            <br>
+            <input type = "submit" onclick = register()>
+        </div>
+
+        <script src = "../javascripts/register.js"></script>
+    </body>
+</html>
