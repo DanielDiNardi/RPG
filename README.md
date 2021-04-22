@@ -1,2 +1,2 @@
 # RPG
-RGP game for Web Development &amp; Deployment ptoject
+RGP game character creation for Web Development &amp; Deployment ptoject
